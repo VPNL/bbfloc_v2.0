@@ -26,4 +26,4 @@ Software requirements: Matlab and PsychoPy
     - **`stimuli`**: contains two subfolders:
         - `dynamic_stimuli`: contains the dynamic stimuli, edited to have emoji fixations affixed onto them.
         - `static_stimuli`: contains the static stimuli, edited to have emoji fixations affixed onto them..
-        - 'saxestim_wfixation': contains Heather Kosakowski's stimuli, edited to have emoji fixations affixed onto them. 
+        - `saxestim_wfixation`: contains Heather Kosakowski's stimuli, edited to have emoji fixations affixed onto them. 
