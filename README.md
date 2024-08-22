@@ -17,12 +17,12 @@ Software requirements: Matlab and PsychoPy
 
 - Three subfolders to be kept within **`bbfloc`**:
     - **`matlab`**: where the Matlab functions used to generate experiment runs will be kept.
-        - The main script to generate runs for
+          - RUNME_newexp: is the main matlab script used to generate unique runs across conditions for each subject 
     - **`psychopy`**: where the PsychoPy scripts for each experiment version will be kept.
         - Contains a folder called `countdown_imgs` where the countdown images are kept.
         - Also contains a subfolder called `data` where the participant experiment data is kept.
-            - Within this subfolder is a folder for each participant (e.g., `bb01`, `bb02`).
-                - Each participant folder contains another four subfolders: `short`, `mid`, `long`, and `combined`.
+            - Within this subfolder will be where folders for each participant are kept (e.g., `bb01`, `bb02`).
+                  - Within each participant folder should be subfolder(s) for each experiment version containing runs for that version.
     - **`stimuli`**: contains two subfolders:
         - `dynamic_stimuli`: contains the dynamic stimuli, edited to have emoji fixations affixed onto them.
         - `static_stimuli`: contains the static stimuli, edited to have emoji fixations affixed onto them..
