@@ -13,7 +13,7 @@ Clone this repository onto the computer you will use to present stimuli.
 
 Software requirements: Matlab and PsychoPy 
 
-## Folder Organization
+## folder organization
 
 - Three subfolders to be kept within **`bbfloc`**:
     - **`matlab`**: where the Matlab functions used to generate experiment runs will be kept.
