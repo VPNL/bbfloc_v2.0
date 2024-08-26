@@ -10,7 +10,7 @@ Experiment runs are always generated in Matlab and are unique to each subject.
 
 Experiments run on PsychoPy.
 
-There's three versions of the PsychoPy runme, each version corresponds to different run orders. 
+There's three versions of the PsychoPy runme, each version corresponds to different run orders to prevent order bias. 
 
 # set-up instructions 
 
