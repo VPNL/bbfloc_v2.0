@@ -57,7 +57,7 @@ win = visual.Window(
     size=(1920, 1080), checkTiming=False, fullscr=1, screen=1, #change screen stuff here; size=(960, 540), screen=0 is default--- trying to get the stimuli to play only on the scanner screen
     winType='pyglet', allowStencil=False, 
     monitor='testMonitor', color=[0, 0, 0], colorSpace='rgb',
-    backgroundImage = f'/Users/{usr}/Desktop/bbfloc/stimuli/background_color.png', backgroundFit='contain', 
+    backgroundImage = f'/Users/{usr}/Desktop/bbfloc/stimuli/background_color.png', backgroundFit='cover', 
     blendMode='avg', useFBO=True, 
     units='pix')
 win.mouseVisible = False
@@ -87,7 +87,7 @@ defaultKeyboard = keyboard.Keyboard(backend='iohub')
 endExpNow = False  # flag for 'escape' or other condition => quit the exp
 frameTolerance = 0.001  # how close to onset before 'same' frame
 
-for run_num in range(run_num, 6):
+for run_num in range(run_num, 7):
     if run_num == 3 or run_num == 6:
         # ======================== experiment set-up ============================ 
         # Dynamically generate the file path based on run number
@@ -225,7 +225,7 @@ for run_num in range(run_num, 6):
         countdown_path = Path(f"/Users/{usr}/Desktop/bbfloc/psychopy/countdown_imgs")
     
         # Create a list of countdown images
-        countdown_images = [visual.ImageStim(win, str(path), flipVert=True, size=(768,768)) for path in countdown_path.glob('*.png')]
+        countdown_images = [visual.ImageStim(win, str(path), flipVert=True, size=(1080,1080)) for path in countdown_path.glob('*.png')]
     
         # ======================== run experiment! ============================
         # --- Create some handy timers---
@@ -664,7 +664,7 @@ for run_num in range(run_num, 6):
         last_image_path = os.path.join(last_image_directory, random_last_image)
 
         # Set up image stimulus
-        last_image = visual.ImageStim(win, size=(768,768), image=last_image_path)
+        last_image = visual.ImageStim(win, size=(1080,1080), image=last_image_path)
 
         # Set durations
         last_image_duration = 5.0  # adjust as needed
@@ -682,7 +682,7 @@ for run_num in range(run_num, 6):
         thisExp.abort()  # or data files will save again on exit
 
         
-    if run_num == 1 or run_num == 4:
+    elif run_num == 1 or run_num == 4:
         #loop thru if run_num is static
         # ======================== experiment set-up ============================ 
         # Dynamically generate the file path based on run number
@@ -759,14 +759,14 @@ for run_num in range(run_num, 6):
         image_paths = stim_directories
         
         # create a list of loaded ImageStim3 objects
-        images = [visual.ImageStim(win, path, flipVert=False, size=(768, 768)) for path in image_paths] #changed from movie_stim
+        images = [visual.ImageStim(win, path, flipVert=False, size=(1080, 1080)) for path in image_paths] #changed from movie_stim
         
         from pathlib import Path
         #create path for countdown images
         countdown_path = Path(f"/Users/{usr}/Desktop/bbfloc/psychopy/countdown_imgs")
         
         # Create a list of countdown images
-        countdown_images = [visual.ImageStim(win, str(path), size=(768, 768), flipVert=True) for path in countdown_path.glob('*.png')]
+        countdown_images = [visual.ImageStim(win, str(path), size=(1080, 1080), flipVert=True) for path in countdown_path.glob('*.png')]
         
         # ===== Generate par files for static  run =====
         color_codes = {
@@ -1254,7 +1254,7 @@ for run_num in range(run_num, 6):
         last_image_path = os.path.join(last_image_directory, random_last_image)
 
         # Set up image stimulus
-        last_image = visual.ImageStim(win, size=(768,768), image=last_image_path)
+        last_image = visual.ImageStim(win, size=(1080,1080), image=last_image_path)
 
         # Set durations
         last_image_duration = 5.0  # adjust as needed
@@ -1265,12 +1265,11 @@ for run_num in range(run_num, 6):
         core.wait(last_image_duration)
     
   
-    else: 
+    elif run_num == 2 or run_num == 5: 
     # Dynamically generate the file path based on run number
         csv_file_path = _thisDir + '/data/' + str(participant) + '/' + 'exp_v3' + '/' + 'script_babyloc_dyna_newexp_run' + str(run_num) + '.csv'
     
         columns_to_import = ["Block #", "Category", "Onset-time(s)", "TaskMatch", "Video Name", "Video Path"]
-    
         
         # Read specific columns from the CSV file
         vals = pd.read_csv(csv_file_path,  usecols=columns_to_import)
@@ -1397,7 +1396,7 @@ for run_num in range(run_num, 6):
         countdown_path = Path(f"/Users/{usr}/Desktop/bbfloc/psychopy/countdown_imgs")
     
         # Create a list of countdown images
-        countdown_images = [visual.ImageStim(win, str(path), flipVert=True, size=(768,768)) for path in countdown_path.glob('*.png')]
+        countdown_images = [visual.ImageStim(win, str(path), flipVert=True, size=(1080,1080)) for path in countdown_path.glob('*.png')]
     
         # ======================== run experiment! ============================
         # --- Create some handy timers---
@@ -1836,7 +1835,7 @@ for run_num in range(run_num, 6):
         last_image_path = os.path.join(last_image_directory, random_last_image)
 
         # Set up image stimulus
-        last_image = visual.ImageStim(win, size=(768,768), image=last_image_path)
+        last_image = visual.ImageStim(win, size=(1080,1080), image=last_image_path)
 
         # Set durations
         last_image_duration = 5.0  # adjust as needed
