@@ -30,5 +30,5 @@ Software requirements: Matlab and PsychoPy
                   - Within each participant folder should be subfolder(s) for each experiment version (v1, v2, v3) containing unique runs for that version.
     - **`stimuli`**: contains two subfolders:
         - `dynamic_stimuli`: contains the dynamic stimuli, edited to have emoji fixations affixed onto them.
-        - `static_stimuli`: contains the static stimuli, edited to have emoji fixations affixed onto them..
+        - `updated_static_stimuli`: contains the static stimuli (1080x1080p), edited to have emoji fixations affixed onto them..
         - `saxestim_wfixation`: contains Heather Kosakowski's stimuli, edited to have emoji fixations affixed onto them. 
