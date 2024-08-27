@@ -9,8 +9,8 @@ Experiment runs are always generated in Matlab and are unique to each subject. E
 
 # setting up the experiment for a subject
 
-**First** Use the RUNME_newexp.m script to generate the runs and data folders for the subject! Just input the subject's name, your laptop's user (whoami), and the PsychoPy runME script version (1, 2, or 3) that you want to generate runs for.
-**Second** Load the Psychopy runME script version that you want to use for this subject (either v1, v2, or v3). Input their name, the laptop user, and the run number when prompted.
+**First** use the RUNME_newexp.m script to generate the runs and data folders for the subject! Just input the subject's name, your laptop's user (whoami), and the PsychoPy runME script version (1, 2, or 3) that you want to generate runs for.
+**Second** load the Psychopy runME script version that you want to use for this subject (either v1, v2, or v3). Input their name, the laptop user, and the run number when prompted.
 
 # set-up instructions 
 
