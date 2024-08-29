@@ -24,7 +24,7 @@ Software requirements: Matlab and PsychoPy
 
 - Three subfolders to be kept within **`bbfloc`**:
     - **`matlab`**: where the Matlab functions used to generate experiment runs will be kept.
-        -  **`RUNME_newexp`**: is the main matlab script used to generate unique runs across conditions for each subject 
+        -  **`RUNME_newexp`**: is the main matlab script used to generate unique run CSVs each subject. 
     - **`psychopy`**: where the PsychoPy scripts for each experiment version will be kept.
         - Contains a folder called `countdown_imgs` where the countdown images are kept.
         - Also contains a subfolder called `data` where the participant experiment data is kept.
