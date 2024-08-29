@@ -1,6 +1,6 @@
 # bbfloc
 
-a rundown:
+## a rundown:
 
 Static condition stimuli for faces, hands, cars, and scenes categories were adapted from Anthony Stigliani's fLoc package ([Stigliani et al](http://vpnl.stanford.edu/papers/StiglianiJNS2015.pdf)., 2015).
 Static condition stimuli for the food category were adapted from Nidhi Jain's food stimuli ([Jain et al](https://www.nature.com/articles/s42003-023-04546-2)., 2023). 
