@@ -9,12 +9,12 @@ Heather Kosakowski's video stimuli ([Kosakowski et al](https://doi.org/10.17605/
 
 Run CSVs are always generated in MATLAB, with each CSV being unique to a specific subject. These CSVs are then used by PsychoPy to execute the experiment. There are three versions of the PsychoPy exp_runME.py script (v1, v2, v3), each designed with a different order of condition presentation to prevent order bias.
 
-# setting up the experiment for a subject
+## setting up the experiment for a subject
 
 **First** use the RUNME_newexp.m script to generate the run CSVs and data folders for the subject! Just input the subject's name, your laptop's user (whoami), and the integer corresponding to the PsychoPy runME script version (1, 2, or 3) that you want to generate runs for.
 **Second** load the Psychopy runME script version that you want to use for this subject (either v1, v2, or v3). Input their name, the laptop user, and the run number when prompted.
 
-# set-up instructions 
+## set-up instructions 
 
 Clone this repository onto the computer you will use to present stimuli. Add it to your desktop.
 
