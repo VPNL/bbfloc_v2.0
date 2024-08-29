@@ -16,7 +16,7 @@ Run CSVs are always generated in MATLAB, with each CSV being unique to a specifi
 
 # set-up instructions 
 
-Clone this repository onto the computer you will use to present stimuli.
+Clone this repository onto the computer you will use to present stimuli. Add it to your desktop.
 
 Software requirements: Matlab and PsychoPy 
 
