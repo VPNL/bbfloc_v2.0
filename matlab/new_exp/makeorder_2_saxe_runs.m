@@ -1,5 +1,5 @@
 function makeorder_2_saxe_runs(participant, version, user)
-%% Generates 2 run/CSV scripts of saxe's exp containing 6 videos per block with 
+%% Generates 2 run/CSV scripts for Heather Kosakowskis's stimuli, containing 6 videos per block with 
 %% a blank baseline block between each stim block.
 %
 % INPUT: Should be the subject name, the exp version number, and the user of the laptop. 
