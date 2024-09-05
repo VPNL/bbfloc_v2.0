@@ -1341,7 +1341,7 @@ for run_num in range(run_num, 7):
         color_codes = {
             0: '0 0 0', # blank
             6: '1 .3 .3',  # faces
-            7: '1 1 0', # hands
+            7: '1 1 0', # limbs
             8: '0 0 1',     # cars
             9: '0 1 0'      # scenes
         }
