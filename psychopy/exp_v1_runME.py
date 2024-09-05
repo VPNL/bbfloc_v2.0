@@ -772,7 +772,7 @@ for run_num in range(run_num, 7):
         color_codes = {
             0: '0 0 0',     # blank
             1: '1 0 0',     # faces
-            2: '0.8 0.8 0', # hands
+            2: '0.8 0.8 0', # limbs
             3: '0 0 0.4',     # cars
             4: '0 0.9 0.6',      # scenes
             5: '0.7 0.3 0.8'     # food 
@@ -1342,7 +1342,7 @@ for run_num in range(run_num, 7):
         color_codes = {
             0: '0 0 0', # blank
             6: '1 .3 .3',  # faces
-            7: '1 1 0', # hands
+            7: '1 1 0', # limbs
             8: '0 0 1',     # cars
             9: '0 1 0'      # scenes
         }
