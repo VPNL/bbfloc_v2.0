@@ -55,4 +55,4 @@ makeorder_babyloc_2_static_runs(participant, version, user)
 makeorder_babyloc_2_dyna_runs(participant, version, user)
 
 %% Generates 2 runs/CSV scripts for saxe condition
-makeorder_2_saxe_runs(participant, version)
+makeorder_2_saxe_runs(participant, version, user)
