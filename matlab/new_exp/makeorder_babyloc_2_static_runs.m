@@ -1,4 +1,4 @@
-function makeorder_babyloc_2_static_runs(participant, version)
+function makeorder_babyloc_2_static_runs(participant, version, user)
 %% Generates 2 runs/CSV scripts for functional
 %% localizer for the infant scans containing 16 stimuli per block with presentation rates of
 %% 2Hz. 
