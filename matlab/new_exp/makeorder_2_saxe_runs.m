@@ -31,7 +31,7 @@ cats = {'Faces_side', 'Faces_front', 'Limbs_hands', 'Limbs_feet', 'Objects_colli
 ncats = length(cats); % number of stimulus conditions
 nconds = ncats;  % number of conditions to be counterbalanced (including baseline blocks)
 % Map the original category index to a new index
-category_mapping = [10, 11, 12, 13, 14, 15, 16, 17, 18];
+category_mapping = [10, 11, 12, 13, 14, 15, 16, 17];
 
 % Presentation and design parameters
 nruns = 2; % number of runs
