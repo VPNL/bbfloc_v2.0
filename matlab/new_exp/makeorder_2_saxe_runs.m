@@ -3,7 +3,7 @@ function makeorder_2_saxe_runs(participant, version, user)
 %% a blank baseline block between each stim block.
 %
 % INPUT: Should be the subject name, the exp version number, and the user of the laptop. 
-% OUTPUTS: 2 unique CSV files, one for each run. 
+% OUTPUTS: 4 unique CSV files, two for each run - a csv for the parfile and a csv for the exp
 % 
 % 
 % STIMULI: 4 main stimulus categories with 2 subcategories each (totaling
