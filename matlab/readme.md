@@ -13,6 +13,6 @@ You really just need to run RUNME_newexp.m in the new_exp folder, which will gen
 * Generates participant's necessary data folders to run psychopy
 * Generates 2 runs/CSV scripts for static condition: runtime (248s)
 * Generates 2 runs/CSV scripts for dynamic condition: runtime (264s)
-* Generates 2 runs/CSV scripts for Saxe condition: runtime (200s) 
+* Generates 2 runs/CSV scripts for Saxe condition: runtime (200s); generates an additional two CSVs to make parfiles that are compatible w/ mrVista
 
 
