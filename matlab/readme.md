@@ -1,4 +1,4 @@
-You really just need to run RUNME_newexp.m, which will generate 6 unique bbfloc runs for your subject, the order depending on the expVersion you input.
+You really just need to run RUNME_newexp.m in the new_exp folder, which will generate 6 unique bbfloc runs for your subject, the order depending on the expVersion you input.
 
 **INPUT**
 * participant's initials/number as string i.e. ('BR') 
