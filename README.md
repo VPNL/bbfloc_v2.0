@@ -34,3 +34,7 @@ Software requirements: Matlab and PsychoPy
         - `dynamic_stimuli`: contains the dynamic stimuli, edited to have emoji fixations affixed onto them. Stimuli and blank baseline videos have a duration of 4s. 
         - `updated_static_stimuli`: contains the static stimuli (1080x1080p), edited to have emoji fixations affixed onto them. 
         - `saxestim_wfixation`: contains Heather Kosakowski's stimuli, edited to have emoji fixations affixed onto them. Stimuli have a duration of 2.6667s, blank baseline videos have 4s                   durations.  
+
+
+## notes on getting psychopy to actually work on your mac
+- if you get an iohub crash error: go to privacy and security in your System settings -> go to accessibility -> allow psychopy to control your laptop
