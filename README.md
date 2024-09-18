@@ -18,7 +18,7 @@ Run CSVs are always generated in MATLAB, with each CSV being unique to a specifi
 
 Clone this repository onto the computer you will use to present stimuli. Add it to your desktop.
 
-Software requirements: Matlab and PsychoPy 
+Software requirements: Matlab and PsychoPy (v2023.2.3); python version 3.12.6
 
 ## folder organization
 
@@ -37,4 +37,5 @@ Software requirements: Matlab and PsychoPy
 
 
 ## notes on getting psychopy to actually work on your mac
+- we strongly recommend using psychopy version 2023.2.3 - any other versions give us wonky errors and crash the experiment prematurely
 - if you get an iohub crash error: go to privacy and security in your System settings -> go to accessibility -> allow psychopy to control your laptop
