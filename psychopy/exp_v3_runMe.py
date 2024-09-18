@@ -92,7 +92,7 @@ for run_num in range(run_num, 7):
         # ======================== experiment set-up ============================ 
         # Dynamically generate the file path based on run number
         csv_file_path = _thisDir + '/data/' + str(participant) + '/' + 'exp_v3' + '/' + 'script_saxe_newexp_run' + str(run_num) + '.csv'
-        par_file_path = _thisDir + '/data/' + str(participant) + '/' + 'exp_v1' + '/' + 'saxe_parfile_for_run' + str(run_num) + '.csv'
+        par_file_path = _thisDir + '/data/' + str(participant) + '/' + 'exp_v3' + '/' + 'saxe_parfile_for_run' + str(run_num) + '.csv'
     
         columns_to_import = ["Block #", "Category", "Onset-time(s)", "TaskMatch", "Video Name", "Video Path", "Video Dur"]
     
