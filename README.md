@@ -1,5 +1,7 @@
 # bbfloc
 
+This is an experiment tailored for infant and child subjects - that integrates dynamic and static stimuli of the following categories: faces, hands, cars, scenes, and food (static only). 
+
 ## a rundown:
 
 Static condition stimuli for faces, hands, cars, and scenes categories were adapted from Anthony Stigliani's fLoc package ([Stigliani et al](http://vpnl.stanford.edu/papers/StiglianiJNS2015.pdf)., 2015).
