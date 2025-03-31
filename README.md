@@ -1,6 +1,6 @@
-# bbfloc
+# bbfloc_v2.0
 
-This is an experiment tailored for infant and child subjects - that integrates dynamic and static stimuli of the following categories: faces, hands, cars, scenes, and food (static only). 
+This is an experiment tailored for infant and child subjects - that integrates dynamic and static stimuli of the following categories: faces, hands, cars, scenes, and food. 
 
 ## a rundown:
 
